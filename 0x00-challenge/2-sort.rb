@@ -21,7 +21,7 @@ ARGV.each do |arg|
             i += 1
         else
             j = i
-            while i < l do 
+            while j < l do 
               x = result[j]
               result.insert(j, i_arg)
               i_arg = x
